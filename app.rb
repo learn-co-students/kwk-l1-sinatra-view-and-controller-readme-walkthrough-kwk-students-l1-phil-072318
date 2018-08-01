@@ -1,4 +1,5 @@
 require_relative 'config/environment'
+require_relative 'models/model.rb'
 
 
 class App < Sinatra::Base
@@ -8,8 +9,9 @@ class App < Sinatra::Base
   end
 
   post '/' do
-  @my_results =   (params[:choose])  
+  @my_results =   (params[:Choose])  
   end
+  # the @my_results part is how you get results it is not fininshed yet though
 
   
 
