@@ -1,10 +1,10 @@
 def choose_one(disability)
 
   if disability == "DownSyndrome"
-    return ""
+    return "https://www.ndss.org/about-down-syndrome/down-syndrome/"
 
   elsif disability == "ADHD"
-    return "Hello"
+    return "http://www.chadd.org/understanding-adhd/about-adhd/frequently-asked-questions-about-adhd.aspx"
     
   elsif disability == "Autism"
     return "https://iancommunity.org/autism-faq"
