@@ -9,10 +9,11 @@ class App < Sinatra::Base
   end
 
   post '/' do
-  @my_results =   (params[:Choose])  
+  @my_results = choose_one(params[:Choose])
+  erb :results
   end
 end 
-  # the @my_results part is how you get results it is not fininshed yet though
+  # the @my_results part is how you get results
 
 
   
