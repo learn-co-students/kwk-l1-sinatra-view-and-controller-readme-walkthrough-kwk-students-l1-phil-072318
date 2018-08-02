@@ -1,3 +1,19 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+li {
+    display: inline;
+     float: left;
+}
+a {
+    display: block;
+    padding: 8px;
+    background-color: #D4F5F5;
+}
+
 h1 {
   text-align: center;
   color: #554348;
@@ -8,7 +24,24 @@ body {
   background-color: #D4F5F5;
   font-family: 'Dosis', sans-serif;
 }
+.button {
+   border-radius: 10px;
+   background-color: #A9ADDA; /* lighter blue of hover-color button */
+   border-style: dotted;
+   border: #675AF5; /*dark(er) blue than background-color* /
+   color: black;
+   padding: 14px 40px; /* size of button */
+   text-align: center; /* alignment of words */
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+}
 
+.button:hover {
+   background-color: #636ABA; /* darker bluish-purple */
+   color: white;
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
 .vertical_img {
   height: 325px;
   width: 260px;
