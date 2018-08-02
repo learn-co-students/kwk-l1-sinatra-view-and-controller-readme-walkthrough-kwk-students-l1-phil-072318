@@ -11,8 +11,8 @@ class App < Sinatra::Base
   post '/' do
   @my_results =   (params[:Choose])  
   end
+end 
   # the @my_results part is how you get results it is not fininshed yet though
 
-  
 
   
