@@ -1,6 +1,7 @@
 def choose_one(disability)
 
   if disability == "DownSyndrome"
+<<<<<<< HEAD
     return "https://www.ndss.org/about-down-syndrome/down-syndrome/"
 
   elsif disability == "ADHD"
@@ -8,6 +9,15 @@ def choose_one(disability)
     
   elsif disability == "Autism"
     return "https://iancommunity.org/autism-faq"
+=======
+    return ""
+
+  elsif disability == "ADHD"
+    return "Hello"
+    
+  elsif disability == "Autism"
+    return "https://www.scientificamerican.com/article/autism-it-s-different-in-girls"
+>>>>>>> 5e2dea745d01e82de21eb6016910b93eb1ecf619
     
     
    disability == "Dyslexia"
