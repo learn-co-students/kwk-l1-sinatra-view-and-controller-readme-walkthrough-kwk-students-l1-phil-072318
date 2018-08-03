@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -52,14 +52,11 @@ body {
   height: 260px;
   width: 325;
 }
-
-=======
 body {
   text-align: center;
   background-color: #D4F5F5;
   color: #554348
 }
->>>>>>> 5e2dea745d01e82de21eb6016910b93eb1ecf619
 /* Customize the label (the container) */
 .container {
   display: block;
@@ -88,20 +85,14 @@ body {
   left: 0;
   height: 25px;
   width: 25px;
-<<<<<<< HEAD
   background-color: #4BC1F5;
-=======
   background-color: #eee;
->>>>>>> 5e2dea745d01e82de21eb6016910b93eb1ecf619
 }
 
 /* On mouse-over, add a grey background color */
 .container:hover input ~ .checkmark {
-<<<<<<< HEAD
   background-color: #4BE3F5;
-=======
   background-color: #ccc;
->>>>>>> 5e2dea745d01e82de21eb6016910b93eb1ecf619
 }
 
 /* When the checkbox is checked, add a blue background */
