@@ -124,3 +124,7 @@ body {
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
 }
+
+h7{
+  color: blue;
+}
