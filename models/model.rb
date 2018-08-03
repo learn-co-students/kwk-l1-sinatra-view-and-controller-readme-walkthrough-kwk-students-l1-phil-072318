@@ -11,8 +11,7 @@ def choose_one(disability)
     return "https://iancommunity.org/autism-faq"
     return ""
 
-  elsif disability == "ADHD"
-    return "Hello"
+  
     
   elsif disability == "Autism"
     return "https://www.scientificamerican.com/article/autism-it-s-different-in-girls"
