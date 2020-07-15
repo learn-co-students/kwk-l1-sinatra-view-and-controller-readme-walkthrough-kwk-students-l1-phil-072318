@@ -1,16 +1,19 @@
 require_relative 'config/environment'
+require_relative 'models/model.rb'
+
 
 class App < Sinatra::Base
-  get '/reverse' do
-    erb :reverse
+ 
+  get '/' do
+    erb :home
   end
 
-  post '/reverse' do
-    erb :reversed
+  post '/' do
+  @my_results = choose_one(params[:Choose])
+  erb :results
   end
+end 
+  # the @my_results part is how you get results
 
-  get '/friends' do
-    # Write your code here!
 
-  end
-end
+  
